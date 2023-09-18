@@ -27,7 +27,7 @@ const App = () => {
     // Step 1: Update the board
     const updatedBoard = board.map((value, idx) => {
       if (idx === boxIdx) {
-        return xPlaying ? "git commitX" : "O";
+        return xPlaying ? "X" : "O";
       } else {
         return value;
       }
